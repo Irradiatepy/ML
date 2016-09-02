@@ -228,4 +228,4 @@ if __name__ == '__main__':
     min_support = 0.004  # 最小支持度
     min_confd = 0.05  # 可信度或支持度
     rules = apriori_gen_rules(data_set=data_set, min_support=min_support, min_confd=min_confd)
-    print sorted(rules, key=lambda x: x[2], reverse=True)[15: ]
+    print sorted(rules, key=lambda x: x[2], reverse=True)
